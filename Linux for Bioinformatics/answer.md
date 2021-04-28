@@ -2,31 +2,33 @@
 
 Q1:  What is your home directory? 
 
-A: /home/ubuntu
+A: 
+```/home/ubuntu```
 
 Q2: What is the output of this command? (ls)
 
-A: hello_world.txt
+A: 
+```hello_world.txt```
 
 Q3: What is the output of each ls command ?
 
 A:
-my_folder:
+```my_folder:
 
 my_folder2:
-hello_world.txt
+hello_world.txt```
 
 Q4: What is the output of each?
 
 A:
+```
 my_folder:
 
 my_folder2:
 
 my_folder3:
 hello_world.txt
-
-#BigBioinfo
+```
 
 Q5: Why didn't that work ?
 
@@ -49,4 +51,50 @@ Q8: What is the output of this command?
 A:
 ```serveruser is not in the sudoers file.  This incident will be reported.```
 
+Q9: what does ```-c bioconda``` do?
 
+A: This parameter asks conda to search for the tool in the bioconda channel. Conda channels are locations where packages are stored and maintained.
+
+Q10: What does the ```-o athal.ga.gz``` part of the command do?
+
+A: This parameter directs the curl command output from stdout to the mentioned file.
+
+Q11: What is a ```.gz``` file?
+
+A: A file with ```.gz``` extension means that the file has been compressed using Gunzip application.
+
+Q12: What does the ```zcat``` command do?
+
+A: ```zcat``` is a command line tool used to view(cat) compressed/zipped files, without havinf to uncompress it compleately.
+
+Q13: what does the head command do? 
+
+A: As the name says, it prints the top lines(10 lines by default) of any file. 
+
+Q14: what does the number 100 signify in the command? 
+
+A: Its the argument passed onto the -n parameter that tells head command to print top 100 lines of the file.
+
+Q15: What is ```|``` doing?
+
+A: The ```|``` is a pipe tool, it helps in redirecting output of a command into an input of the command that comes after the pipe.
+
+Q16: What format are the downloaded sequencing reads in?
+
+A: The file downloaded is in SRA format.
+
+Q17: What is the total size of the disk?
+
+A: 7.7 GB
+
+Q18. How much space is remaining on the disk?
+
+A: 3.5 GB
+
+Q19: What went wrong?
+
+A: Ran out of storage space on the instance.
+
+Q20: What was your solution?
+
+A: Added the ```--gzip``` parameter to the fastq-dump command inorder to get the output fastq file gzipped.
