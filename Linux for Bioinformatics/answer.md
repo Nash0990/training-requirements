@@ -13,10 +13,12 @@ A:
 Q3: What is the output of each ls command ?
 
 A:
-```my_folder:
+```
+my_folder:
 
 my_folder2:
-hello_world.txt```
+hello_world.txt
+```
 
 Q4: What is the output of each?
 
